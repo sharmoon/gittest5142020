@@ -10,9 +10,10 @@ namespace WebApplication7withGit.Models
         public int Id { get; set; }
         public int ItemNo { get; set; }
         public int ItemId { get; set; }
-
-
+        public string ItemName { get; set; }
+      
         public Origin Origin { get; set; }
         public int OriginId { get; set; }
+
     }
 }
